@@ -1,0 +1,39 @@
+body{
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+#nav-bar{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    
+  }
+  main{
+    width: 100%;
+  }
+  .img-container{
+    width: 60%;
+  }
+  image{
+    width: 100%;
+  }
+  #nav-bar li{
+    list-style: none;
+  }
+  .nav-link{
+    text-decoration: none;
+  }
+  @media screen and (min-width: 768px) {
+    body{
+      width: 100vw;
+    }
+    footer{
+        width: 50%;
+        margin: auto;
+    }
+  }
